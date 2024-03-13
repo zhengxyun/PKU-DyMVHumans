@@ -5,6 +5,7 @@
 # 1.0 per view image overview
 rdata_path=/amax/zxyun/FreeViewSynthesis/DyMulHumans/datasets/part1
 work_path=/amax/zxyun/FreeViewSynthesis/Mypapers/DyMVHumans
+cd ${work_path}/scripts
 nm=(1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13 4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17
     1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12
     )
