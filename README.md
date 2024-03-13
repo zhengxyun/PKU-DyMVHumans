@@ -71,7 +71,6 @@ To make the benchmarks easier compare with our dataset, we save different data f
 |   |--- data_NeuS
 |   |--- data_NeuS2
 |   |--- data_COLMAP
-|   |--- data_COLMAP
 |   |--- <overview_fme_*.png>
 |--- ...
 
