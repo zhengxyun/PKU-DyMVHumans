@@ -48,7 +48,7 @@ parser = argparse.ArgumentParser(description='Inference video')
 parser.add_argument('--model-type', type=str, default='mattingrefine', choices=['mattingbase', 'mattingrefine'])
 parser.add_argument('--model-backbone', type=str, default='resnet50', choices=['resnet101', 'resnet50', 'mobilenetv2'])
 parser.add_argument('--model-backbone-scale', type=float, default=0.25)
-parser.add_argument('--model-checkpoint', type=str, default='./Model-weights/PyTorch/pytorch_resnet50.pth')
+parser.add_argument('--model-checkpoint', type=str, default='./Model-weights/PyTorch/mobilenetv2.pth') # Download the model weight from https://github.com/PeterL1n/BackgroundMattingV2/releases/tag/v1.0.0
 parser.add_argument('--model-refine-mode', type=str, default='sampling', choices=['full', 'sampling', 'thresholding'])
 parser.add_argument('--model-refine-sample-pixels', type=int, default=80_000)
 parser.add_argument('--model-refine-threshold', type=float, default=0.7)
