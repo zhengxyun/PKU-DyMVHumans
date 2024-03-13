@@ -57,7 +57,7 @@ The dataset can be directly downloaded from the following links.
 
 For each scene, we provide the multi-view images (`./case_name/per_view/cam_*/images/`), the coarse foreground with RGBA channels (`./case_name/per_view/cam_*/images/`), as well as the coarse foreground segmentation (`./case_name/per_view/cam_*/pha/`), which are obtained using [BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2). 
 
-To make the benchmarks easier compare with our dataset, we save different data formats?i.e., [Surface-SOS](https://github.com/zhengxyun/Surface-SOS), [NeuS](https://github.com/Totoro97/NeuS), [NeuS2](https://github.com/19reborn/NeuS2), [Instant-ngp](https://github.com/NVlabs/instant-ngp), and [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting)) of DyMulHumans at "**Part1**" and write a document that describes the data process. 
+To make the benchmarks easier compare with our dataset, we save different data formats (i.e., [Surface-SOS](https://github.com/zhengxyun/Surface-SOS), [NeuS](https://github.com/Totoro97/NeuS), [NeuS2](https://github.com/19reborn/NeuS2), [Instant-ngp](https://github.com/NVlabs/instant-ngp), and [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting)) of DyMulHumans at **Part1** and write a document that describes the data process. 
 
 3D-Gaussian supports the data format provided by **data_COLMAP**.
 
