@@ -59,7 +59,7 @@ def main(args):
         print("bgr_path:", bgr_path)
         out_path=args.output_folder
         cmd = f'cd {args.bgmv2_path} && \
-        python inference_video.py --video-src {args.input_video} --video-bgr {bgr_path} --output-dir {out_path} --output-type com pha '# && \
+        python inference_video.py --video-src {video_path} --video-bgr {bgr_path} --output-dir {out_path} --output-type com pha '# && \
         # cp {out_path}/com/* {out_path}/
         os.system(cmd)
 
