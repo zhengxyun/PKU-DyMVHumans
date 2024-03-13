@@ -47,7 +47,7 @@ def main(args):
     video_path = args.output_folder + '/video_clip.mp4'
     for i, frame in tqdm(enumerate(frames)):
         imageio.imwrite(args.output_folder + '/images/{:06d}.png'.format(i), frame)
-    imageio.mimsave(video_path, frames, fps=25)
+    imageio.mimsave(video_path, frames, fps=25, macro_block_size = None)
 
     # matting
     if args.matting_method=='rvm':
