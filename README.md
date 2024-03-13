@@ -45,7 +45,7 @@ The dataset can be directly downloaded from the following links.
 
 **Part2**: [OneDrive](https://1drv.ms/f/s!Ak-j_ZC_XxTsgm-incfmvDx-nE0K?e=BuwU5g), (37 scenarios) contains video sequences of the dataset.
 
-**Note that** by downloading the datasets, you acknowledge that you have read the **agreement**, understand it, and agree to be bound by them:
+**Note that by downloading the datasets, you acknowledge that you have read the agreement, understand it, and agree to be bound by them**:
 
 > 1. The DyMulHumans dataset is made available only for non-commercial research purposes. Any other use, in particular any use for commercial purposes, is prohibited.
 >
