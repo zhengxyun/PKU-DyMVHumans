@@ -1,0 +1,3 @@
+[submodule "scripts/RobustVideoMatting"]
+	path = scripts/RobustVideoMatting
+	url = https://github.com/PeterL1n/RobustVideoMatting
