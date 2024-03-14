@@ -6,10 +6,10 @@
 rdata_path=/amax/zxyun/FreeViewSynthesis/DyMulHumans/datasets/part1
 work_path=/amax/zxyun/FreeViewSynthesis/Mypapers/DyMVHumans
 cd ${work_path}/scripts
-nm=(1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13 4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17
+nm=(4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17 1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13 
     1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12
     )
-for (( v=1; v<9; v++)); do
+for (( v=1; v<3; v++)); do
    case_nm=${nm[v]}
    echo "This is ${case_nm}"
    for (( k=0; k<250; k+=50)); do
@@ -27,8 +27,9 @@ done
 gpu=2
 rdata_path=/amax/zxyun/FreeViewSynthesis/DyMulHumans/datasets/part1
 work_path=/amax/zxyun/FreeViewSynthesis/Mypapers/DyMVHumans
-nm=(1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13 4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17
-    1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12
+nm=(4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17                                             # cam_nm=56, BGR_PATH=4K
+    1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13  # cam_nm=60, BGR_PATH=1080
+    1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12      # cam_nm=60, BGR_PATH=1080
     )
 for (( v=2; v<3; v++)); do
     case_nm=${nm[v]}
@@ -59,13 +60,14 @@ done
 
 rdata_path=/amax/zxyun/FreeViewSynthesis/DyMulHumans/datasets/part1
 work_path=/amax/zxyun/FreeViewSynthesis/Mypapers/DyMVHumans
-nm=(1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13 4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17
-    1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12
+nm=(4K_Studios_Show_Groups 4K_Studios_Show_Pair_f16f17                                             # cam_nm=56, BGR_PATH=4K, fme_end=30
+    1080_Dance_Dunhuang_Single_f14 1080_Sport_Badminton_Single_f11 1080_Kungfu_Weapon_Pair_m12m13  # cam_nm=60, BGR_PATH=1080, fme_end=30
+    1080_Dance_Dunhuang_Pair_f14f15 1080_Sport_Football_Single_m11 1080_Kungfu_Fan_Single_m12      # cam_nm=60, BGR_PATH=1080, fme_end=245
     )
 for (( v=1; v<6; v++)); do
   case_nm=${nm[v]}
   echo "This is ${case_nm}"
-  fme_end=31                 # end frame of the video
+  fme_end=30                 # end frame of the video
   fme_itr=5                  # sampling interval
   python ${work_path}/scripts/cam2frames.py \
       --data_folder ${rdata_path} \
