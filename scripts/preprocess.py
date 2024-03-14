@@ -63,17 +63,17 @@ def main(args):
         # cp {out_path}/com/* {out_path}/
         os.system(cmd)
 
-        # post-processing
-        thres=196
-        os.makedirs(f'{out_path}/mask', exist_ok=True)
-        # os.makedirs(f'{out_path}/com-mask', exist_ok=True)
-        print(f'post-processing: {out_path}')
-        for i in tqdm(range(len(glob(osp.join(out_path, 'com/*.png'))))):
-            alpha = imageio.imread(f'{out_path}/pha/{i:06d}.png')
-            alpha[alpha < thres] = 0
-            alpha[alpha >= thres] = 255
-            alpha = find_max_region(alpha)
-            imageio.imwrite(f'{out_path}/mask/{i:06d}.png', alpha)
+        # # post-processing
+        # thres=196
+        # os.makedirs(f'{out_path}/mask', exist_ok=True)
+        # # os.makedirs(f'{out_path}/com-mask', exist_ok=True)
+        # print(f'post-processing: {out_path}')
+        # for i in tqdm(range(len(glob(osp.join(out_path, 'com/*.png'))))):
+        #     alpha = imageio.imread(f'{out_path}/pha/{i:06d}.png')
+        #     alpha[alpha < thres] = 0
+        #     alpha[alpha >= thres] = 255
+        #     alpha = find_max_region(alpha)
+        #     imageio.imwrite(f'{out_path}/mask/{i:06d}.png', alpha)
 
 
 
