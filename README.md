@@ -59,15 +59,15 @@ For each scene, we provide the multi-view images (`./case_name/per_view/cam_*/im
 
 To make the benchmarks easier compare with our dataset, we save different data formats (i.e., [Surface-SOS](https://github.com/zhengxyun/Surface-SOS), [NeuS](https://github.com/Totoro97/NeuS), [NeuS2](https://github.com/19reborn/NeuS2), [Instant-ngp](https://github.com/NVlabs/instant-ngp), and [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting)) of DyMulHumans at **Part1** and write a document that describes the data process. 
 
-3D-Gaussian supports the data format provided by **data_COLMAP**.
 
 ```
 .
 |--- <case_name>
-|   |--- cams
+|   |--- cams                    
 |   |--- videos
-|   |--- per_view
-|   |--- data_ngp
+|   |--- per_view                
+|   |--- per_frame              
+|   |--- data_ngp       
 |   |--- data_NeuS
 |   |--- data_NeuS2
 |   |--- data_COLMAP
@@ -75,7 +75,6 @@ To make the benchmarks easier compare with our dataset, we save different data f
 |--- ...
 
 ```
-
 
 Optionally, camera parameters are provided in `./case_name/cams/`, the `*_cam.txt` files are for example :
 
@@ -105,7 +104,7 @@ To filter the scenarios to be downloaded depending on the purpose, you can take 
 We provide several scripts in this repo for you to experiment with our dataset. More detailed instructions are included in the files.
 
 * `data_preprocess.sh`: Per view image overview, and save the image sequence and matting results.
-* `iprocess2colmap2neus.sh`: process2colmap2neus.sh: Init data format for NeuS/NeuS2. 
+* `process2colmap2neus.sh`: process2colmap2neus.sh: Init data format for NeuS/NeuS2. 
 * `process2nerf.sh`: Init data format for Instant-ngp/torch-ngp.
 
 Also, we provide a converter script `run_colmap.sh`, using the open source [COLMAP](https://colmap.github.io/) software to extract SfM information and the necessary camera data.
@@ -121,7 +120,7 @@ NeuS supports the data format provided by **data_NeuS**.
 
 ```
 .
- <data_NeuS2>
+ <data_NeuS>
 |---000000 # frame
 |   |---images
 |   |   |---000.png
@@ -209,20 +208,6 @@ Surface-SOS/3D-Gaussian supports the data format provided by **data_COLMAP**.
 |---...
 
 ```
-
-
-### Click to see output demo
-
-<details>
-<summary> Free-Viewpoint Videos </summary>
-    
-https://github.com/zhengxyun/PKU-MVHumans/assets/98016216/ecdfb8f8-abd8-4edf-96fd-8d8c1a7fe8c3
-
-https://github.com/zhengxyun/PKU-MVHumans/assets/98016216/22fcdab6-385a-4843-9a75-a7bc6549056a
-
-https://github.com/zhengxyun/PKU-MVHumans/assets/98016216/94320ed9-5b07-4611-a220-ae867b04efcf
-
-</details>
 
 
 ## Citation
