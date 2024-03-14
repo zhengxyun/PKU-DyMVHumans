@@ -18,7 +18,7 @@ def cam2frames(args):
     if not os.path.exists(out_path):
         os.makedirs(out_path) 
 
-    for i in range(args.fme_st, args.fme_end, args.fme_itr):
+    for i in range(args.fme_st, args.fme_end+1, args.fme_itr):
         print("frame:", i)
         out_dir = os.path.join(out_path,"%06d" % (i))
         img_out_dir = os.path.join(out_dir, "images")
