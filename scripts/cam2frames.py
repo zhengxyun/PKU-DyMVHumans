@@ -13,17 +13,16 @@ def cam2frames(args):
 
     data_path = args.data_folder
     img_path = os.path.join(data_path, args.scene_nm, "per_view")
-
     out_path = os.path.join(data_path,args.scene_nm, "per_frame")
 
     if not os.path.exists(out_path):
-        os.makedirs(out_path) # 可以创建文件夹及子目录
+        os.makedirs(out_path) 
 
     for i in range(args.fme_st, args.fme_end, args.fme_itr):
         print("frame:", i)
         out_dir = os.path.join(out_path,"%06d" % (i))
         img_out_dir = os.path.join(out_dir, "images")
-        mask_out_dir = os.path.join(out_dir, "mask")
+        # mask_out_dir = os.path.join(out_dir, "mask")
         pha_out_dir = os.path.join(out_dir, "pha")
         rgba_out_dir = os.path.join(out_dir, "rgba")
 
@@ -31,7 +30,7 @@ def cam2frames(args):
         com_rgb_dir = os.path.join(out_dir, "com_rgb")
 
         os.makedirs(img_out_dir, exist_ok=True)
-        os.makedirs(mask_out_dir, exist_ok=True)
+        # os.makedirs(mask_out_dir, exist_ok=True)
         os.makedirs(pha_out_dir, exist_ok=True)
         os.makedirs(rgba_out_dir, exist_ok=True)
         os.makedirs(com_rgb_dir, exist_ok=True)
@@ -43,12 +42,12 @@ def cam2frames(args):
 
         for j in range(args.cam_st,cam_end):
             img_pth = os.path.join(img_path, "cam_%s" % (j), "images","%06d.png" %i)
-            mask_pth = os.path.join(img_path, "cam_%s" % (j), "mask", "%06d.png" % i)
+            # mask_pth = os.path.join(img_path, "cam_%s" % (j), "mask", "%06d.png" % i)
             pha_pth = os.path.join(img_path, "cam_%s" % (j), "pha", "%06d.png" % i)
             rgba_pth = os.path.join(img_path, "cam_%s" % (j), "com", "%06d.png" % i)
 
             img = Image.open(img_pth)
-            mask = Image.open(mask_pth)
+            # mask = Image.open(mask_pth)
             pha = Image.open(pha_pth)
             rgba = Image.open(rgba_pth)
 
@@ -57,13 +56,13 @@ def cam2frames(args):
                 exit()
 
             img_out_pth = os.path.join(img_out_dir,"image_c_%03d_f_%06d.png" %(j,i))
-            mask_out_pth = os.path.join(mask_out_dir, "mask_c_%03d_f_%06d.png" %(j,i))
+            # mask_out_pth = os.path.join(mask_out_dir, "mask_c_%03d_f_%06d.png" %(j,i))
             pha_out_pth = os.path.join(pha_out_dir, "pha_c_%03d_f_%06d.png" %(j,i))
             rgba_out_pth = os.path.join(rgba_out_dir, "image_c_%03d_f_%06d.png" % (j, i))
             com_rgb_pth = os.path.join(com_rgb_dir, "image_c_%03d_f_%06d.png" %(j,i))
 
             img.save(img_out_pth)
-            mask.save(mask_out_pth)
+            # mask.save(mask_out_pth)
             pha.save(pha_out_pth)
             rgba.save(rgba_out_pth)
 
