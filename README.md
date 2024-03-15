@@ -41,9 +41,9 @@ Details are described in our paper:
 
 The dataset can be directly downloaded from the following links.
 
-**Part1**: [BAIDU PAN](https://pan.baidu.com/s/1bqEfh2GbaKf1GTVeMABDtA), (8 scenarios) can be directly used for benchmarks in fine-grained foreground/background decomposition, 3D human reconstruction and novel view synthesis. 
+**Part1**: [Baidu Pan](https://pan.baidu.com/s/1bqEfh2GbaKf1GTVeMABDtA) (code: xxju), (8 scenarios) can be directly used for benchmarks in fine-grained foreground/background decomposition, 3D human reconstruction and novel view synthesis. 
 
-**Part2**: [OneDrive](https://1drv.ms/f/s!Ak-j_ZC_XxTsgm-incfmvDx-nE0K?e=BuwU5g), (37 scenarios) contains video sequences of the dataset.
+**Part2**: [Baidu Pan](https://pan.baidu.com/s/1dAD6d1sQ5skJHg1OBv2MRA?pwd=3i2p) (code: 3i2p), (37 scenarios) contains video sequences of the dataset.
 
 **Note that by downloading the datasets, you acknowledge that you have read the agreement, understand it, and agree to be bound by them**:
 
