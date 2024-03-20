@@ -1,5 +1,5 @@
 
-<h1 align="center">DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling</h1>
+<h1 align="center">PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling</h1>
 
 <div align="center">
     <a href="https://github.com/zhengxyun" target='_blank'>Xiaoyun Zheng</a>, 
@@ -16,18 +16,18 @@
 
 ## Overview
 
-DyMulHumans is a versatile human-centric dataset designed for high-fidelity reconstruction and rendering of dynamic human performances in markerless multi-view capture settings. It comprises 32 humans across 45 different dynamic scenarios, each featuring highly detailed appearances and complex human motions. 
+PKU-DyMVHumans is a versatile human-centric dataset designed for high-fidelity reconstruction and rendering of dynamic human performances in markerless multi-view capture settings. It comprises 32 humans across 45 different dynamic scenarios, each featuring highly detailed appearances and complex human motions. 
 
 ![colored_mesh (1)](assets/snapshot.png)
 
-Inspired by recent advancements in neural radiance field (NeRF)-based scene representations, we carefully set up an off-the-shelf framework that is easy to provide those state-of-the-art NeRF-based implementations and benchmark on DyMulHumans dataset. It is paving the way for various applications like fine-grained foreground/background decomposition, high-quality human reconstruction and photo-realistic novel view synthesis of a dynamic scene.
+Inspired by recent advancements in neural radiance field (NeRF)-based scene representations, we carefully set up an off-the-shelf framework that is easy to provide those state-of-the-art NeRF-based implementations and benchmark on PKU-DyMVHumans dataset. It is paving the way for various applications like fine-grained foreground/background decomposition, high-quality human reconstruction and photo-realistic novel view synthesis of a dynamic scene.
 
 
 ![colored_mesh (1)](assets/usage.png)
 
 Details are described in our paper:
 
-> DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling
+> PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling
 >
 > Xiaoyun Zheng, Liwei Liao, Xufeng Li, Jianbo Jiao, Rongjie Wang, Feng Gao, Shiqi Wang, Ronggang Wang.
 >
@@ -47,7 +47,7 @@ The dataset can be directly downloaded from the following links.
 
 **Note that by downloading the datasets, you acknowledge that you have read the agreement, understand it, and agree to be bound by them**:
 
-> 1. The DyMulHumans dataset is made available only for non-commercial research purposes. Any other use, in particular any use for commercial purposes, is prohibited.
+> 1. The PKU-DyMVHumans dataset is made available only for non-commercial research purposes. Any other use, in particular any use for commercial purposes, is prohibited.
 >
 > 2. You agree not to further copy, publish or distribute any portion of the dataset. 
 >
@@ -57,7 +57,7 @@ The dataset can be directly downloaded from the following links.
 
 For each scene, we provide the multi-view images (`./case_name/per_view/cam_*/images/`), the coarse foreground with RGBA channels (`./case_name/per_view/cam_*/images/`), as well as the coarse foreground segmentation (`./case_name/per_view/cam_*/pha/`), which are obtained using [BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2). 
 
-To make the benchmarks easier compare with our dataset, we save different data formats (i.e., [Surface-SOS](https://github.com/zhengxyun/Surface-SOS), [NeuS](https://github.com/Totoro97/NeuS), [NeuS2](https://github.com/19reborn/NeuS2), [Instant-ngp](https://github.com/NVlabs/instant-ngp), and [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting)) of DyMulHumans at **Part1** and write a document that describes the data process. 
+To make the benchmarks easier compare with our dataset, we save different data formats (i.e., [Surface-SOS](https://github.com/zhengxyun/Surface-SOS), [NeuS](https://github.com/Totoro97/NeuS), [NeuS2](https://github.com/19reborn/NeuS2), [Instant-ngp](https://github.com/NVlabs/instant-ngp), and [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting)) of PKU-DyMVHumans at **Part1** and write a document that describes the data process. 
 
 
 ```
@@ -114,7 +114,7 @@ Also, we provide a converter script `run_colmap.sh`, using the open source [COLM
 
 ## Benchmarks
 
-### Run the [NeuS](https://github.com/Totoro97/NeuS) on DyMulHumans
+### Run the [NeuS](https://github.com/Totoro97/NeuS) on PKU-DyMVHumans
 
 NeuS supports the data format provided by **data_NeuS**.
 
@@ -135,7 +135,7 @@ NeuS supports the data format provided by **data_NeuS**.
 
 ```
 
-### Run the [NeuS2](https://github.com/19reborn/NeuS2) on DyMulHumans
+### Run the [NeuS2](https://github.com/19reborn/NeuS2) on PKU-DyMVHumans
 
 NeuS2 supports the data format provided by **data_NeuS2**.
 
@@ -166,7 +166,7 @@ NeuS2 supports the data format provided by **data_NeuS2**.
 
 ```
 
-### Run the [Instant-ngp](https://github.com/NVlabs/instant-ngp)/[torch-ngp](https://github.com/ashawkey/torch-ngp) on DyMulHumans
+### Run the [Instant-ngp](https://github.com/NVlabs/instant-ngp)/[torch-ngp](https://github.com/ashawkey/torch-ngp) on PKU-DyMVHumans
 
 Instant-ngp supports the data format provided by **data_ngp**.
 
@@ -185,7 +185,7 @@ Instant-ngp supports the data format provided by **data_ngp**.
 
 ```
 
-### Run the [Surface-SOS](https://github.com/zhengxyun/Surface-SOS) or [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting) on DyMulHumans
+### Run the [Surface-SOS](https://github.com/zhengxyun/Surface-SOS) or [3D-Gaussian](https://github.com/graphdeco-inria/gaussian-splatting) on PKU-DyMVHumans
 
 Surface-SOS/3D-Gaussian supports the data format provided by **data_COLMAP**.
 
@@ -216,8 +216,8 @@ If you find this repo is helpful, please cite:
 
 ```
 
-@article{zheng2024dymulhumans,
-  title={DyMulHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling},
+@article{zheng2024PKU-DyMVHumans,
+  title={PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling},
   author={Zheng, Xiaoyun and Liao, Liwei and Li,Xufeng and Jiao, Jianbo and Wang, Rongjie and Gao, Feng and Wang, Shiqi and Wang, Ronggang},
   journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024}
