@@ -5,7 +5,7 @@
 
 <div align="center">
     
-[Xiaoyun Zheng](https://github.com/zhengxyun)<sup>1,2;</sup>, [Weili Liao](https://github.com/leviome)<sup>1,2</sup>, Xufeng Li<sup>3</sup>, 
+[Xiaoyun Zheng](https://github.com/zhengxyun)<sup>1,2</sup>, [Weili Liao](https://github.com/leviome)<sup>1,2</sup>, Xufeng Li<sup>3</sup>, 
 
 [Jianbo Jiao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>4</sup>, [Rongjie Wang](https://github.com/rongjiewang)<sup>2</sup>, 
 [Feng Gao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>1</sup>, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang)<sup>3</sup>, 
@@ -34,13 +34,6 @@ Inspired by recent advancements in neural radiance field (NeRF)-based scene repr
 ![colored_mesh (1)](assets/usage.png)
 
 Details are described in our paper:
-
-> PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling
->
-> Xiaoyun Zheng, Liwei Liao, Xufeng Li, Jianbo Jiao, Rongjie Wang, Feng Gao, Shiqi Wang, Ronggang Wang.
->
->
-> CVPR 2024 ([arxiv](https://arxiv.org/))
 
 
 ## Usage
