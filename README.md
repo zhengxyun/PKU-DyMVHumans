@@ -5,7 +5,7 @@
 
 <div align="center">
     
-[Xiaoyun Zheng](https://github.com/zhengxyun)<sup>1&2;</sup>, [Weili Liao](https://github.com/leviome)<sup>1&2</sup>, Xufeng Li<sup>3</sup>, 
+[Xiaoyun Zheng](https://github.com/zhengxyun)<sup>1,2;</sup>, [Weili Liao](https://github.com/leviome)<sup>1,2</sup>, Xufeng Li<sup>3</sup>, 
 [Jianbo Jiao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>4</sup>, [Rongjie Wang](https://github.com/rongjiewang)<sup>2</sup>, 
 [Feng Gao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>1</sup>, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang)<sup>3</sup>, 
 [Ronggang Wang](https://www.ece.pku.edu.cn/info/1046/2147.ht)<sup>1*</sup>
