@@ -26,14 +26,9 @@
 
 PKU-DyMVHumans is a versatile human-centric dataset designed for high-fidelity reconstruction and rendering of dynamic human performances in markerless multi-view capture settings. It comprises 32 humans across 45 different dynamic scenarios, each featuring highly detailed appearances and complex human motions. 
 
-![colored_mesh (1)](assets/snapshot.png)
-
-Inspired by recent advancements in neural radiance field (NeRF)-based scene representations, we carefully set up an off-the-shelf framework that is easy to provide those state-of-the-art NeRF-based implementations and benchmark on PKU-DyMVHumans dataset. It is paving the way for various applications like fine-grained foreground/background decomposition, high-quality human reconstruction and photo-realistic novel view synthesis of a dynamic scene.
-
+Inspired by recent advancements in neural radiance field (NeRF)-based scene representations, we carefully set up an off-the-shelf framework that is easy to provide those state-of-the-art NeRF-based implementations and benchmark on PKU-DyMVHumans dataset. This includes neural scene decomposition, 3D human reconstruction, and novel view synthesis of dynamic scenes.
 
 ![colored_mesh (1)](assets/usage.png)
-
-Details are described in our paper:
 
 
 ## Usage
