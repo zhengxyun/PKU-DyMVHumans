@@ -1,27 +1,23 @@
 
 <h1 align="center">PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling</h1>
 
-<div align="center">
-    <a href="https://github.com/zhengxyun" target='_blank'>Xiaoyun Zheng</a>, 
-    <a href="https://github.com/leviome" target='_blank'>Weili Liao</a>, 
-    <p>xufeng Li</p>, 
-    <a href="https://jianbojiao.com" target='_blank'>Jianbo Jiao</a>, 
-    <a href="https://github.com/rongjiewang" target='_blank'>Rongjie Wang</a>, 
-    <a href="https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm" target='_blank'>Feng Gao</a>, 
-    <a href="https://www.cs.cityu.edu.hk/~shiqwang" target='_blank'>Shiqi Wang</a>, 
-    <a href="https://www.ece.pku.edu.cn/info/1046/2147.htm" target='_blank'>Ronggang Wang</a>*
-</div>
 <br />
 
-[Shunyuan Zheng](https://shunyuanzheng.github.io)<sup>1&dagger;</sup>, [Boyao Zhou](https://yaourtb.github.io)<sup>2</sup>, [Ruizhi Shao](https://dsaurus.github.io/saurus)<sup>2</sup>, [Boning Liu](https://liuboning2.github.io)<sup>2</sup>, [Shengping Zhang](http://homepage.hit.edu.cn/zhangshengping)<sup>1*</sup>, [Liqiang Nie](https://liqiangnie.github.io)<sup>1</sup>, [Yebin Liu](https://www.liuyebin.com)<sup>2</sup>
+<div align="center">
+    
+[Xiaoyun Zheng](https://github.com/zhengxyun)<sup>1&2;</sup>, [Weili Liao](https://github.com/leviome)<sup>1&2</sup>, Xufeng Li<sup>3</sup>, 
+[Jianbo Jiao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>4</sup>, [Rongjie Wang](https://github.com/rongjiewang)<sup>2</sup>, 
+[Feng Gao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>1</sup>, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang)<sup>3</sup>, 
+[Ronggang Wang](https://www.ece.pku.edu.cn/info/1046/2147.ht)<sup>1*</sup>
 
-<p><sup>1</sup>Harbin Institute of Technology &nbsp;&nbsp;<sup>2</sup>Tsinghua Univserity
-<br><sup>*</sup>Corresponding author &nbsp;&nbsp;<sup>&dagger;</sup>Work done during an internship at Tsinghua Univserity<p>
-
+<p><sup>1</sup> Peking University &nbsp;&nbsp;<sup>2</sup>Peng Cheng Laboratory &nbsp;&nbsp;<sup>3</sup>City University of Hong Kong &nbsp;&nbsp;<sup>4</sup>University of Birmingham
+<br><sup>*</sup>Corresponding author &nbsp;&nbsp<p>
 
 ### [Project page](https://pku-dymvhumans.github.io/) · [Paper](https://arxiv.org) 
 
 <br />
+
+</div>
 
 ![colored_mesh (1)](assets/overview.png)
 
