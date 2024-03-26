@@ -9,7 +9,7 @@
 
 [Jianbo Jiao](https://jianbojiao.com/)<sup>4</sup>, [Rongjie Wang](https://github.com/rongjiewang)<sup>2</sup>, 
 [Feng Gao](https://www.art.pku.edu.cn/szdw/qzjs/cysjyysglx/gf/index.htm)<sup>1</sup>, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang)<sup>3</sup>, 
-[Ronggang Wang](https://www.ece.pku.edu.cn/info/1046/2147.ht)<sup>1*</sup>
+[Ronggang Wang](https://www.ece.pku.edu.cn/info/1046/2147.htm)<sup>1*</sup>
 
 <p><sup>1</sup> Peking University &nbsp;&nbsp;<sup>2</sup>Peng Cheng Laboratory &nbsp;&nbsp;<sup>3</sup>City University of Hong Kong &nbsp;&nbsp;<sup>4</sup>University of Birmingham
 <br><sup>*</sup>Corresponding author &nbsp;&nbsp<p>
