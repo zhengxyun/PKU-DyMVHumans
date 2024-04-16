@@ -14,8 +14,7 @@
 <p><sup>1</sup> Peking University &nbsp;&nbsp;<sup>2</sup>Peng Cheng Laboratory &nbsp;&nbsp;<sup>3</sup>City University of Hong Kong &nbsp;&nbsp;<sup>4</sup>University of Birmingham
 <br><sup>*</sup>Corresponding author &nbsp;&nbsp<p>
 
-### [Project page](https://pku-dymvhumans.github.io/) · [Paper](https://arxiv.org/abs/2403.16080) · [Data Link 1](https://pan.baidu.com/s/1J2g9qCLDQDgEfRrPvKw9Hw?pwd=g2xw) · [Data Link 2](https://huggingface.co/datasets/zxyun/PKU-DyMVHumans) 
-
+### [Project page](https://pku-dymvhumans.github.io/) · [Paper](https://arxiv.org/abs/2403.16080)
 <br />
 
 </div>
