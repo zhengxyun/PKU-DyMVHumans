@@ -35,7 +35,7 @@ Inspired by recent advancements in neural radiance field (NeRF)-based scene repr
 
 ### Download Instructions
 
-The PKU-DyMVHumans dataset is available in [Baidu Wangpan](https://pan.baidu.com/s/1J2g9qCLDQDgEfRrPvKw9Hw?pwd=g2xw) and [Hugging Face](https://huggingface.co/datasets/zxyun/PKU-DyMVHumans). 
+The PKU-DyMVHumans dataset is available in [Baidu Wangpan, 提取码 g2xw ](https://pan.baidu.com/s/1J2g9qCLDQDgEfRrPvKw9Hw?pwd=g2xw) and [Hugging Face](https://huggingface.co/datasets/zxyun/PKU-DyMVHumans). 
 
 
 **Part1**: contains 8 scenarios that can be directly used for benchmarks in fine-grained foreground/background decomposition, 3D human reconstruction and novel view synthesis. 
