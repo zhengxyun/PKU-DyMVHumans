@@ -35,11 +35,12 @@ Inspired by recent advancements in neural radiance field (NeRF)-based scene repr
 
 ### Download Instructions
 
-The dataset can be directly downloaded from the following links.
+The PKU-DyMVHumans dataset is available in [Baidu Wangpan](https://pan.baidu.com/s/1J2g9qCLDQDgEfRrPvKw9Hw?pwd=g2xw) and [Hugging Face](https://huggingface.co/datasets/zxyun/PKU-DyMVHumans). 
 
-**Part1**: [Baidu Pan](https://pan.baidu.com/s/1kquW0zhfOBineQb-Trbnng?pwd=fas1) (code: fas1), (8 scenarios) can be directly used for benchmarks in fine-grained foreground/background decomposition, 3D human reconstruction and novel view synthesis. 
 
-**Part2**: [Baidu Pan](https://pan.baidu.com/s/1dAD6d1sQ5skJHg1OBv2MRA?pwd=3i2p) (code: 3i2p), (37 scenarios) contains video sequences of the dataset.
+**Part1**: contains 8 scenarios that can be directly used for benchmarks in fine-grained foreground/background decomposition, 3D human reconstruction and novel view synthesis. 
+
+**Part2**: contains 37 scenarios with multi-view video sequences.
 
 **Note that by downloading the datasets, you acknowledge that you have read the agreement, understand it, and agree to be bound by them**:
 
