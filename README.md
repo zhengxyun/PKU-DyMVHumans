@@ -19,7 +19,7 @@
 
 </div>
 
-![colored_mesh (1)](assets/overview.png)
+![colored_mesh (1)](assets/cam_mid_grid.gif)
 
 ## Overview
 
